@@ -1,0 +1,122 @@
+<head>
+	<link type="text/css" href="styles.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar" >
+
+	<div id="content"class="container-fluid">
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container-fluid">
+				 <div class="navbar-header" id="sidebar">
+				 		 <a class="navbar-brand" href="#welcome">Gus Richardson <i class="fa fa-free-code-camp"></i></a>
+				   <ul class="nav navbar-nav" style="display: inline-flex; float:right" >
+					  <li role="presentation"><a href="#welcome" class="scrollable"> About</a> </li>
+					  <li role="presentation"><a href="#projects" class="scrollable"> Projects</a> </li>
+					  <li role="presentation"><a href="#contact" class="scrollable"> Contact</a> </li>
+				   </ul>
+				 </div>
+			</div>
+		 
+		</nav>
+	
+		<div>
+			
+				<div id="welcome"  class="center">
+					 	 
+						 <h1 style="text-decoration: underline;">Welcome to my Portfolio!</h1>
+						 <div class="row">
+							 	<div class="col-xs-3">
+						 			<img class="img-circle img-responsive" style="margin: 0 auto" src="assets/images/011563e.jpg">
+							 	</div>
+							 	<h4>I am a learning developer that is exploring the possibilities of HTML, CSS, and JavaScript one day at a time!</h4>
+							 	<hr class="style18" style="border-color: black;">
+						 </div>
+					 
+				</div>
+			
+			<div id="projects" class="center">
+				
+				<div class="row">
+					<div class="col-xs-12">
+						<h1>Portfolio</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-4" >
+						<div class="thumbnail">
+							<img class="img-responsive" style="border: 1px solid gray;" href="http://imgbox.com/NZdppFbF.jpg">
+							<div class="caption">
+								<span class="label label-success" style="display: block; padding-top: .3em; font-size: 80%;">Complete</span>
+								<h3>Tribute Page to Elon Musk</h3>
+								<p>Free Code Camp project on creating a tribute page for a figure.</p>
+								<p><a class="btn btn-primary" href="https://codepen.io/grich27/full/vxxbre/" target="_blank">View</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-4">
+						<img class="img-responsive" src="http://placehold.it/350x150">
+					</div>
+					<div class="col-xs-4">
+						<img class="img-responsive" src="http://placehold.it/350x150">
+					</div>
+					
+				</div>
+				
+			</div>
+			<div id="contact" class="center">
+				<div class="row">
+					<div class="col-xs-12">
+						<h1>Contact</h1>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-xs-9">
+						<h4>You can check me out at any of the following links on the right!</h4>
+					</div>
+					<div class="col-xs-3">
+						<div class="btn-group-vertical">
+								
+									<button class="btn btn-justified"><a href="https://www.twitter.com/maniacphant0m" target=_blank style="vertical-align: middle"><i class="fa fa-3x fa-twitter-square" style="float: left"></i>Twitter</a></button>
+									<button class="btn btn-justified"><a href="https://www.linkedin.com/in/gusrichardson27" target=_blank><i class="fa fa-3x fa-linkedin"></i>LinkedIn</a></button>
+									<button class="btn btn-justified"><a href="https://github/gusr27" target=_blank><i class="fa fa-3x fa-github"></i>Github</a></button>
+									<button class="btn btn-justified"><a href="https://www.freecodecamp.com/gusr27" target=_blank><i class="fa fa-3x fa-free-code-camp"></i>Free Code Camp Profile</a></button>
+					
+					
+				</div>
+				</div>
+		
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/c6fbf1870f.js"></script>
+  <script>
+	$(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 800);
+        return false;
+      }
+    }
+  });
+});
+</script>
+
+</body>
+<footer>
+	
+</footer>

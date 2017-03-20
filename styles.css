@@ -1,0 +1,154 @@
+body{
+  font-family: "Baloo Bhaina" !important;
+  background-color: #031c07 !important;
+  color: #4DEE00;
+  padding-top: 30px !important;
+  position:relative;
+  height: 100%;
+}
+h1{
+	text-align: center;
+	font-size: 3em !important;
+	color: black !important;
+}
+nav {
+  
+  background-color: #60F11A !important;
+  height: 50px;
+  width: 100%;
+  color: white;
+  border-bottom: 1px solid #72ff2c !important;
+  box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2)
+ 
+}
+
+ nav > a{
+  text-decoration: none !important;
+  color: white !important;
+  font-size: 2em;
+ 
+
+  
+}
+.scrollable{
+	 padding: 10px 14px 10px 14px !important;
+	
+}
+
+nav a:hover{
+	color: red !important;
+	box-shadow: 1px 1px 1px 1px #414040;
+}
+
+button{
+  background: none;
+  border: 1px solid gray !important;
+  border-radius: 20px !important;
+  width: 75% !important;
+}
+p{
+	font-size: 1em;
+}
+
+button:hover{
+	background: white;
+}
+
+img{
+	width: 100%;
+	height:100%;
+}
+
+thumbnail img{
+	border: 1px solid black !important;
+}
+
+footer{
+	height:75px;
+	background: #60F11A;
+}
+
+footer a:hover{
+	background: white:
+}
+
+row{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+#welcome {
+
+  
+  
+ 
+}
+
+.active{
+	
+}
+
+#about{
+  
+  height:50% !important;
+}
+#projects{
+  
+  
+}
+#contact{
+  
+  
+}
+#contect{
+	overflow-y: scroll;
+}
+.nav  li{
+  display: inline;
+  height: 100%;
+  float: right;
+  position: relative;
+   
+}
+
+nav ul{
+	
+	padding-top: 5px;
+	vertical-align: middle !important;
+}
+
+
+
+.center{
+	margin:auto;
+	width:75%;
+	height:75%;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	padding: 70px;
+	background: #B9F7B9;
+	
+}
+
+.glass::before{
+	display: block;
+	
+	opacity: 0.4 !important;
+	filter: blur(5px);
+}
+.glass{
+	overflow: hidden;
+	background: white;
+}
+
+
+.navbar-header{
+	width: 100% !important;
+}
+.nav .nav-pills{
+	vertical-align: middle !important;
+}
+
+.btn{
+	font-size: 1em !important;
+}
